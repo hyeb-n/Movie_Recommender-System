@@ -1,0 +1,91 @@
+,Cluster,구분,영화 제목,예상 평점,특이성 점수
+0,0,특화 추천,"Clockwork Orange, A (1971)",4.4,1.16
+1,0,특화 추천,Pulp Fiction (1994),4.58,1.12
+2,0,특화 추천,Natural Born Killers (1994),3.62,1.11
+3,0,추천,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),4.6,0.53
+4,0,추천,"Godfather, The (1972)",4.59,0.43
+5,0,추천,Pulp Fiction (1994),4.58,0.67
+6,0,비추천,Judge Dredd (1995),2.18,-0.27
+7,0,비추천,Congo (1995),2.27,-0.34
+8,0,비추천,Armageddon (1998),2.32,-0.57
+9,1,특화 추천,Armageddon (1998),3.83,1.21
+10,1,특화 추천,Independence Day (a.k.a. ID4) (1996),4.18,1.18
+11,1,특화 추천,Congo (1995),3.33,1.18
+12,1,추천,"Shawshank Redemption, The (1994)",4.7,0.39
+13,1,추천,Life Is Beautiful (La Vita è bella) (1997),4.58,0.44
+14,1,추천,Schindler's List (1993),4.54,0.37
+15,1,비추천,"Blair Witch Project, The (1999)",2.86,0.18
+16,1,비추천,"Cable Guy, The (1996)",2.9,0.35
+17,1,비추천,Natural Born Killers (1994),2.95,-0.09
+18,2,특화 추천,Armageddon (1998),2.92,0.04
+19,2,특화 추천,Independence Day (a.k.a. ID4) (1996),3.24,-0.01
+20,2,특화 추천,Twister (1996),2.99,-0.12
+21,2,추천,"Shawshank Redemption, The (1994)",3.94,-0.36
+22,2,추천,Life Is Beautiful (La Vita è bella) (1997),3.78,-0.37
+23,2,추천,Schindler's List (1993),3.72,-0.45
+24,2,비추천,"Blair Witch Project, The (1999)",2.06,-0.62
+25,2,비추천,"Cable Guy, The (1996)",2.08,-0.47
+26,2,비추천,Ace Ventura: When Nature Calls (1995),2.2,-0.29
+27,3,특화 추천,"Shawshank Redemption, The (1994)",4.52,0.45
+28,3,특화 추천,Braveheart (1995),4.16,0.45
+29,3,특화 추천,Schindler's List (1993),4.4,0.45
+30,3,추천,"Shawshank Redemption, The (1994)",4.52,0.22
+31,3,추천,Schindler's List (1993),4.4,0.23
+32,3,추천,"Usual Suspects, The (1995)",4.36,0.18
+33,3,비추천,Judge Dredd (1995),2.65,0.2
+34,3,비추천,Ace Ventura: When Nature Calls (1995),2.68,0.19
+35,3,비추천,"Cable Guy, The (1996)",2.71,0.16
+36,4,특화 추천,Armageddon (1998),3.62,0.94
+37,4,특화 추천,Independence Day (a.k.a. ID4) (1996),3.95,0.89
+38,4,특화 추천,Titanic (1997),3.87,0.82
+39,4,추천,"Shawshank Redemption, The (1994)",4.37,0.07
+40,4,추천,Life Is Beautiful (La Vita è bella) (1997),4.22,0.07
+41,4,추천,"Sixth Sense, The (1999)",4.19,0.21
+42,4,비추천,Natural Born Killers (1994),2.38,-0.67
+43,4,비추천,"Blair Witch Project, The (1999)",2.39,-0.29
+44,4,비추천,"Cable Guy, The (1996)",2.46,-0.09
+45,5,특화 추천,Leaving Las Vegas (1995),4.19,1.22
+46,5,특화 추천,"Piano, The (1993)",4.15,1.2
+47,5,특화 추천,Natural Born Killers (1994),3.67,1.2
+48,5,추천,"Shawshank Redemption, The (1994)",4.73,0.43
+49,5,추천,"Godfather, The (1972)",4.71,0.55
+50,5,추천,"Usual Suspects, The (1995)",4.69,0.51
+51,5,비추천,Judge Dredd (1995),2.72,0.27
+52,5,비추천,Congo (1995),2.82,0.22
+53,5,비추천,Ace Ventura: When Nature Calls (1995),2.84,0.36
+54,6,특화 추천,Pulp Fiction (1994),3.96,0.07
+55,6,특화 추천,Fargo (1996),3.89,-0.04
+56,6,특화 추천,Natural Born Killers (1994),3.01,-0.06
+57,6,추천,"Shawshank Redemption, The (1994)",4.24,-0.06
+58,6,추천,"Godfather, The (1972)",4.12,-0.05
+59,6,추천,"Usual Suspects, The (1995)",4.12,-0.07
+60,6,비추천,Judge Dredd (1995),2.31,-0.14
+61,6,비추천,Ace Ventura: When Nature Calls (1995),2.35,-0.14
+62,6,비추천,Coneheads (1993),2.42,-0.12
+63,7,특화 추천,"Clockwork Orange, A (1971)",4.02,0.48
+64,7,특화 추천,Natural Born Killers (1994),3.25,0.4
+65,7,특화 추천,Pulp Fiction (1994),4.14,0.38
+66,7,추천,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),4.21,0.14
+67,7,추천,"Godfather, The (1972)",4.18,0.02
+68,7,추천,Pulp Fiction (1994),4.14,0.23
+69,7,비추천,Judge Dredd (1995),1.72,-0.73
+70,7,비추천,Congo (1995),1.82,-0.78
+71,7,비추천,Armageddon (1998),1.83,-1.06
+72,8,특화 추천,Natural Born Killers (1994),2.5,-1.04
+73,8,특화 추천,"Clockwork Orange, A (1971)",3.15,-1.06
+74,8,특화 추천,Pulp Fiction (1994),3.24,-1.13
+75,8,추천,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),3.38,-0.69
+76,8,추천,"Godfather, The (1972)",3.35,-0.82
+77,8,추천,"Usual Suspects, The (1995)",3.32,-0.86
+78,8,비추천,Judge Dredd (1995),1.39,-1.07
+79,8,비추천,"Honey, I Shrunk the Kids (1989)",1.47,-1.17
+80,8,비추천,Ace Ventura: When Nature Calls (1995),1.47,-1.02
+81,9,특화 추천,"Cable Guy, The (1996)",3.31,1.59
+82,9,특화 추천,Addams Family Values (1993),3.61,1.55
+83,9,특화 추천,Ace Ventura: When Nature Calls (1995),3.36,1.55
+84,9,추천,"Shawshank Redemption, The (1994)",4.91,0.6
+85,9,추천,Schindler's List (1993),4.82,0.65
+86,9,추천,Life Is Beautiful (La Vita è bella) (1997),4.82,0.67
+87,9,비추천,Judge Dredd (1995),3.31,0.85
+88,9,비추천,"Cable Guy, The (1996)",3.31,0.76
+89,9,비추천,Coneheads (1993),3.32,0.78
