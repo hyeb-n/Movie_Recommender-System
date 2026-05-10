@@ -122,17 +122,6 @@ adjustText
 
 ---
 
-## GitHub에 올릴 때 주의
-
-- `predicted_matrix.csv`는 **수백 MB** 수준이라, GitHub의 **파일당 100MB 제한**에 걸립니다.
-- 다음 중 하나를 선택하세요.
-  - **[Git LFS](https://git-lfs.github.com/)** 로 추적 (`git lfs track "predicted_matrix.csv"`)
-  - 저장소에서 제외하고 **외부 링크**(Drive, S3 등)로 배포
-  - `.gitignore`에 `predicted_matrix.csv`를 추가해 같이 올라가지 않도록 처리
-
----
-
 ## 라이선스 및 데이터 출처
 
-- 평점·장르 데이터는 **MovieLens** 형식과 호환되는 구조입니다. 공개 시 사용한 데이터 세트의 **라이선스 / 인용 조건**을 확인하세요. ([GroupLens MovieLens](https://grouplens.org/datasets/movielens/))
-- 저장소 코드의 라이선스는 필요에 따라 별도 `LICENSE` 파일로 명시할 수 있습니다.
+- 평점·장르 데이터는 **MovieLens** 형식과 호환되는 구조입니다. ([GroupLens MovieLens](https://grouplens.org/datasets/movielens/))
