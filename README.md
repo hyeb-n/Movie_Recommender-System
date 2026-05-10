@@ -10,7 +10,7 @@
 | `dm_model.ipynb` | 전처리, EDA, CF/SVD 학습, 클러스터링, `result_df`·`predicted_matrix` 생성 |
 | `requirements.txt` | 앱 실행용 Python 의존성 (Streamlit, pandas, numpy) |
 | `movie_genre_df.csv`, `result_df.csv`, `predicted_matrix.csv` | 학습·앱용 데이터 (루트 또는 `app/`에 두는 방식은 아래 참고) |
-| `data/` | (선택) `movie_genre_df`, `result_df` 등 보조 복사본을 둘 수 있는 폴더 |
+| `data/` | `movie_genre_df`, `result_df` 등 보조 복사본을 둘 수 있는 폴더 |
 
 ### 앱이 읽는 CSV 위치
 
