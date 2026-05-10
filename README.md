@@ -14,10 +14,12 @@
 ├── dm_model.ipynb            # 전처리·모델링 노트북
 ├── movie_genre_df.csv        # 영화 메타(제목, movie_id, 장르 원-핫)
 ├── result_df.csv             # 클러스터별 추천 결과
-├── predicted_matrix.csv      # SVD 예측 평점 행렬 (대용량)
 ├── requirements.txt
+├── .gitignore
 └── README.md
 ```
+
+> `predicted_matrix.csv`(SVD 예측 평점 행렬, 약 437MB)는 **GitHub의 파일당 100MB 제한**으로 인해 저장소에 포함되어 있지 않습니다. 아래 [데이터 준비](#데이터-준비) 절차로 직접 생성하면 됩니다.
 
 ---
 
@@ -67,11 +69,23 @@ Google Colab 또는 로컬 Jupyter에서 실행할 수 있으며, 노트북 내 
 - `app/movie_genre_df.csv`
 - `app/predicted_matrix.csv`
 
-CSV가 루트에만 있다면 실행 전에 `app/`로 복사하세요.
+저장소 루트에만 CSV가 있다면 실행 전에 `app/`로 복사하세요.
 
 ```bash
 cp movie_genre_df.csv result_df.csv predicted_matrix.csv app/
 ```
+
+---
+
+## 데이터 준비
+
+`predicted_matrix.csv`는 저장소에 포함되어 있지 않으므로, **직접 생성**하거나 별도로 받아 넣어야 합니다.
+
+1. `dm_model.ipynb`을 열고 셀의 데이터 경로를 본인 환경에 맞게 수정합니다.
+2. SVD 학습 단계까지 실행하면 `predicted_matrix.csv`가 생성됩니다.
+3. 생성된 파일을 프로젝트 루트(또는 `app/`)에 복사합니다.
+
+> 4번 탭(**사용자 맞춤**)은 이 파일이 있어야 동작합니다. 파일이 없으면 1~3번 탭만 사용할 수 있습니다.
 
 ---
 
@@ -80,14 +94,16 @@ cp movie_genre_df.csv result_df.csv predicted_matrix.csv app/
 Python **3.10+** 권장.
 
 ```bash
-git clone <이 저장소 URL>
-cd app
+git clone https://github.com/<계정>/<저장소>.git
+cd <저장소>
 
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
 # CSV를 app/ 폴더로 옮긴 뒤
+cp movie_genre_df.csv result_df.csv app/
+# predicted_matrix.csv도 생성 후 app/에 두면 4번 탭까지 사용 가능
 streamlit run app/app.py
 ```
 
@@ -124,4 +140,5 @@ adjustText
 
 ## 라이선스 및 데이터 출처
 
-- 평점·장르 데이터는 **MovieLens** 형식과 호환되는 구조입니다. ([GroupLens MovieLens](https://grouplens.org/datasets/movielens/))
+- 평점·장르 데이터는 **MovieLens** 형식과 호환되는 구조입니다. 공개 시 사용한 데이터 세트의 **라이선스 / 인용 조건**을 확인하세요. ([GroupLens MovieLens](https://grouplens.org/datasets/movielens/))
+- 저장소 코드의 라이선스는 필요에 따라 별도 `LICENSE` 파일로 명시할 수 있습니다.
